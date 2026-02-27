@@ -1,0 +1,1701 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_001",
+        "franchise_id": "FRA_001",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.04071975526502,
+          10.993829129952257
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_002",
+        "franchise_id": "FRA_002",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.23403364986223,
+          11.148304185158652
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_003",
+        "franchise_id": "FRA_003",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.25762851664203,
+          12.963732844870387
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_004",
+        "franchise_id": "FRA_004",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.26009480794384,
+          13.023530296839812
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_005",
+        "franchise_id": "FRA_005",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.84206524065442,
+          10.503930886251752
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_006",
+        "franchise_id": "FRA_006",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.13865979025282,
+          10.613607247890457
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_007",
+        "franchise_id": "FRA_007",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.74505480568143,
+          11.00727900982448
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_008",
+        "franchise_id": "FRA_008",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.09189944399459,
+          11.57572979321693
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_009",
+        "franchise_id": "FRA_009",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.3467167739572,
+          11.423942747884459
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_010",
+        "franchise_id": "FRA_010",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.18529262622728,
+          11.520799319095946
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_011",
+        "franchise_id": "FRA_011",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.43099063979885,
+          12.078975744155413
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_012",
+        "franchise_id": "FRA_012",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.41021159153513,
+          12.175986183629488
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_013",
+        "franchise_id": "FRA_013",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.30769877990471,
+          12.187697311754544
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_014",
+        "franchise_id": "FRA_014",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.76212358232709,
+          12.055526227296259
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_015",
+        "franchise_id": "FRA_015",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.79430185941946,
+          10.306757347728718
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_016",
+        "franchise_id": "FRA_016",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.20201949230352,
+          10.279146981729037
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_017",
+        "franchise_id": "FRA_017",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.68168075998078,
+          10.495042483739482
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_018",
+        "franchise_id": "FRA_018",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.54198391797372,
+          10.33739399238175
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_019",
+        "franchise_id": "FRA_019",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.23679196701151,
+          10.304391881364738
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_020",
+        "franchise_id": "FRA_020",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.53446892884739,
+          11.397411493985029
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_021",
+        "franchise_id": "FRA_021",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.42684179162062,
+          11.515711908369589
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_022",
+        "franchise_id": "FRA_022",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.84473815458698,
+          11.090617725271507
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_023",
+        "franchise_id": "FRA_023",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.66561794147597,
+          11.133782167214076
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_024",
+        "franchise_id": "FRA_024",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.17817741471293,
+          12.997470913613256
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_025",
+        "franchise_id": "FRA_025",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.97498913764387,
+          12.693920694545463
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_026",
+        "franchise_id": "FRA_026",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.87235755753001,
+          12.398863033216669
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_027",
+        "franchise_id": "FRA_027",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.78641469022457,
+          12.358750400142247
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_028",
+        "franchise_id": "FRA_028",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.37592436491815,
+          8.202943412438193
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_029",
+        "franchise_id": "FRA_029",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.30514790069532,
+          8.153555984969724
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_030",
+        "franchise_id": "FRA_030",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.52864795750834,
+          10.777356521048032
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_031",
+        "franchise_id": "FRA_031",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.8540948914957,
+          10.733665347938713
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_032",
+        "franchise_id": "FRA_032",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.31416176085489,
+          12.549216730366519
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_033",
+        "franchise_id": "FRA_033",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.88647573873841,
+          12.497654037870094
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_034",
+        "franchise_id": "FRA_034",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.7062871511109,
+          12.342327288305428
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_035",
+        "franchise_id": "FRA_035",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.1926603713602,
+          12.587444037061644
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_036",
+        "franchise_id": "FRA_036",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.1945838417033,
+          10.036325011301237
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_037",
+        "franchise_id": "FRA_037",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.76607433057302,
+          9.92889752341676
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_038",
+        "franchise_id": "FRA_038",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.10036604441413,
+          10.007240314413842
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_039",
+        "franchise_id": "FRA_039",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.79813841833423,
+          10.753527976397834
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_040",
+        "franchise_id": "FRA_040",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.67682316798935,
+          10.395373058674286
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_041",
+        "franchise_id": "FRA_041",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.04510158400511,
+          11.483730916778093
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_042",
+        "franchise_id": "FRA_042",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.23386058655268,
+          11.471932928227442
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_043",
+        "franchise_id": "FRA_043",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.20957428767217,
+          11.521828635460885
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_044",
+        "franchise_id": "FRA_044",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.69688137138655,
+          11.075636490290634
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_045",
+        "franchise_id": "FRA_045",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.91065901086387,
+          11.307564129185801
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_046",
+        "franchise_id": "FRA_046",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.83796988152439,
+          10.540989544112854
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_047",
+        "franchise_id": "FRA_047",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.67445272699325,
+          10.217462156462513
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_048",
+        "franchise_id": "FRA_048",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.11502860089442,
+          10.381632278008999
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_049",
+        "franchise_id": "FRA_049",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.71577630993296,
+          10.432874617412848
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_050",
+        "franchise_id": "FRA_050",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.86078985984416,
+          9.38962262791744
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_051",
+        "franchise_id": "FRA_051",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.3841491231308,
+          9.453068051530103
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_052",
+        "franchise_id": "FRA_052",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.27108934305815,
+          9.245995802463327
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_053",
+        "franchise_id": "FRA_053",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.31746746690939,
+          11.785702959908173
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_054",
+        "franchise_id": "FRA_054",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.07531623838439,
+          11.563074396077297
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_055",
+        "franchise_id": "FRA_055",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.24719321613978,
+          11.82400391506603
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_056",
+        "franchise_id": "FRA_056",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.77643732065684,
+          11.498564199559105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_057",
+        "franchise_id": "FRA_057",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.15622687440494,
+          9.821830675234136
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_058",
+        "franchise_id": "FRA_058",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.78276839437012,
+          10.083852362462457
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_059",
+        "franchise_id": "FRA_059",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.55166507689007,
+          9.686686483953192
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_060",
+        "franchise_id": "FRA_060",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.41258472114644,
+          10.337872531886324
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_061",
+        "franchise_id": "FRA_061",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.21045852736103,
+          10.281328497990746
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_062",
+        "franchise_id": "FRA_062",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.39180292779245,
+          10.461638242751448
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_063",
+        "franchise_id": "FRA_063",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.80583004070424,
+          11.408279344489705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_064",
+        "franchise_id": "FRA_064",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.95219735076307,
+          11.454621258042987
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_065",
+        "franchise_id": "FRA_065",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.28049191131448,
+          9.618054103772339
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_066",
+        "franchise_id": "FRA_066",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.21598269191078,
+          10.08551940777715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_067",
+        "franchise_id": "FRA_067",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.32745466812025,
+          13.387139152334086
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_068",
+        "franchise_id": "FRA_068",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.21693655151181,
+          13.294149110906854
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_069",
+        "franchise_id": "FRA_069",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.47169878418677,
+          13.164851870413555
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_070",
+        "franchise_id": "FRA_070",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.48604277360587,
+          10.461771547852106
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_071",
+        "franchise_id": "FRA_071",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.62133011187115,
+          10.437551371097362
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_072",
+        "franchise_id": "FRA_072",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.26540632681781,
+          9.109841500073557
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_073",
+        "franchise_id": "FRA_073",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.88882424332844,
+          8.84401016491694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_074",
+        "franchise_id": "FRA_074",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.90122386671351,
+          8.395905976250129
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_075",
+        "franchise_id": "FRA_075",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.9243833923664,
+          8.569228636248033
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_076",
+        "franchise_id": "FRA_076",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.249472543647,
+          10.587436162813288
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_077",
+        "franchise_id": "FRA_077",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.39888866567752,
+          10.649337552211726
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_078",
+        "franchise_id": "FRA_078",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.59776863658368,
+          10.817269061547037
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_079",
+        "franchise_id": "FRA_079",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.61588002495502,
+          11.033929946884516
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_080",
+        "franchise_id": "FRA_080",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.16585856766126,
+          8.999115592735022
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_081",
+        "franchise_id": "FRA_081",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.73762127472266,
+          9.247601658873839
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_082",
+        "franchise_id": "FRA_082",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.54007535317874,
+          9.343346472091321
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_083",
+        "franchise_id": "FRA_083",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.55639056501262,
+          8.314563844717291
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_084",
+        "franchise_id": "FRA_084",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.54381310345521,
+          8.814029899639197
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_085",
+        "franchise_id": "FRA_085",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.19573835083894,
+          10.490290181061708
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_086",
+        "franchise_id": "FRA_086",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.65339276082473,
+          11.021574462830896
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_087",
+        "franchise_id": "FRA_087",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.16514150118884,
+          11.115246189247005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_088",
+        "franchise_id": "FRA_088",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.22325719236454,
+          11.114247057059316
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_089",
+        "franchise_id": "FRA_089",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.21745283391354,
+          12.64689578989839
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_090",
+        "franchise_id": "FRA_090",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.07799656260549,
+          12.065517650709953
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_091",
+        "franchise_id": "FRA_091",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.47802954841106,
+          12.501991934490432
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_092",
+        "franchise_id": "FRA_092",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.85190331843677,
+          12.544140839964138
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_093",
+        "franchise_id": "FRA_093",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.95542054150242,
+          12.634160944124808
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_094",
+        "franchise_id": "FRA_094",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.65764453361021,
+          13.151225800290739
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_095",
+        "franchise_id": "FRA_095",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.62378920584058,
+          12.507712001483137
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_096",
+        "franchise_id": "FRA_096",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.75447104615513,
+          13.020946221879246
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_097",
+        "franchise_id": "FRA_097",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.6755632769141,
+          12.832491708426152
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_098",
+        "franchise_id": "FRA_098",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.67934087815055,
+          13.072255020932763
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_099",
+        "franchise_id": "FRA_099",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.78383231012671,
+          12.229930689688457
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_100",
+        "franchise_id": "FRA_100",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.69962930902794,
+          12.09924054919343
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_101",
+        "franchise_id": "FRA_101",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.50538965163828,
+          11.889889979391025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_102",
+        "franchise_id": "FRA_102",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.32955410814205,
+          11.670176118194618
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_103",
+        "franchise_id": "FRA_103",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.37793337248183,
+          12.3582830967067
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_104",
+        "franchise_id": "FRA_104",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.08533363669349,
+          9.671685419940305
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_105",
+        "franchise_id": "FRA_105",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.66443422669303,
+          9.33197672828505
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "node_id": "NODE_106",
+        "franchise_id": "FRA_106",
+        "capacity": 1000,
+        "status": "active"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.66922845008575,
+          9.429170953798394
+        ]
+      }
+    }
+  ]
+}
