@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
+
+:root {
+  --bg-0: #f4f8fb;
+  --bg-1: #ffffff;
+  --line: #d6e0e7;
+  --ink: #15232f;
+  --muted: #5f7282;
+  --brand: #0f8fb7;
+  --brand-strong: #0b6e8f;
+  --danger: #d9534f;
+  --ok: #1f8f5f;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-family: "Manrope", "Segoe UI", sans-serif;
+  color: var(--ink);
+  background:
+    radial-gradient(1100px 550px at -10% -20%, #d9edf6 0%, transparent 55%),
+    radial-gradient(1000px 500px at 100% 120%, #e9f7ef 0%, transparent 60%),
+    var(--bg-0);
+}
+
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+
+.top-header {
+  padding: 14px 20px;
+  border-bottom: 1px solid var(--line);
+  background: linear-gradient(90deg, #f0f6fb 0%, #f7fbfd 100%);
+}
+
+.top-header h1 {
+  font-size: 1.3rem;
+  font-weight: 800;
+  letter-spacing: 0.2px;
+}
+
+.top-header p {
+  margin-top: 4px;
+  font-size: 0.86rem;
+  color: var(--muted);
+}
+
+.dashboard-container {
+  display: flex;
+  flex: 1;
+  min-height: 0;
+}
+
+.map-panel {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.control-panel {
+  width: 360px;
+  max-width: 42vw;
+  background: var(--bg-1);
+  border-left: 1px solid var(--line);
+  box-shadow: -6px 0 20px rgba(15, 35, 47, 0.06);
+  display: flex;
+  flex-direction: column;
+}
+
+.panel-header {
+  padding: 18px 20px;
+  border-bottom: 1px solid var(--line);
+  background: #f9fcfe;
+}
+
+.panel-header h1 {
+  font-size: 1.05rem;
+  font-weight: 800;
+}
+
+.panel-header p {
+  margin-top: 6px;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+.panel-content {
+  padding: 16px;
+  overflow-y: auto;
+}
+
+.section {
+  margin-bottom: 16px;
+}
+
+.section h2 {
+  font-size: 0.77rem;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: var(--muted);
+  margin-bottom: 8px;
+  font-weight: 700;
+}
+
+.system-stats .stat-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.stat-card {
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: #fbfeff;
+  padding: 10px 8px;
+}
+
+.stat-label {
+  display: block;
+  font-size: 0.68rem;
+  color: var(--muted);
+}
+
+.stat-value {
+  display: block;
+  margin-top: 4px;
+  font-size: 0.95rem;
+  font-weight: 800;
+}
+
+.status-badge {
+  display: inline-block;
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid var(--line);
+  background-color: #f8fbfd;
+  color: #415466;
+  font-size: 0.82rem;
+  font-weight: 600;
+}
+
+.status-badge.selected {
+  border-color: #9ccedc;
+  background-color: #e8f6fb;
+  color: #11526a;
+}
+
+.action-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.compute-btn,
+.reset-btn {
+  width: 100%;
+  height: 46px;
+  border-radius: 10px;
+  border: none;
+  font-size: 0.93rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.compute-btn {
+  background: linear-gradient(135deg, var(--brand) 0%, #16a6d4 100%);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.compute-btn:hover:not(:disabled) {
+  background: linear-gradient(135deg, var(--brand-strong) 0%, #1196bf 100%);
+}
+
+.compute-btn:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.reset-btn {
+  border: 1px solid var(--line);
+  color: #445767;
+  background: #fff;
+}
+
+.reset-btn:hover:not(:disabled) {
+  background: #f3f8fb;
+}
+
+.reset-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.error-message {
+  padding: 10px;
+  border-left: 4px solid var(--danger);
+  border-radius: 6px;
+  background: #fff5f4;
+  color: #9f2f2b;
+  font-size: 0.83rem;
+}
+
+.route-info-card {
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 12px;
+  background: #fbfeff;
+}
+
+.info-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.83rem;
+  margin-bottom: 8px;
+}
+
+.info-row:last-child {
+  margin-bottom: 0;
+}
+
+.info-row .label {
+  color: var(--muted);
+}
+
+.info-row .value {
+  font-weight: 700;
+}
+
+.cost-value {
+  color: var(--ok);
+}
+
+.map-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+}
+
+.map-loading-overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(249, 253, 255, 0.58);
+  backdrop-filter: blur(2px);
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.spinner {
+  width: 20px;
+  height: 20px;
+  border: 3px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  border-top-color: #fff;
+  animation: spin 1s linear infinite;
+}
+
+.map-loading-overlay .spinner {
+  width: 46px;
+  height: 46px;
+  border-width: 5px;
+  border-color: rgba(15, 143, 183, 0.15);
+  border-top-color: var(--brand);
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.map-legend {
+  position: absolute;
+  left: 14px;
+  bottom: 14px;
+  z-index: 500;
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 10px 12px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  font-size: 0.75rem;
+  color: #3e5464;
+  margin-bottom: 6px;
+}
+
+.legend-item:last-child {
+  margin-bottom: 0;
+}
+
+.legend-color {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.legend-line {
+  width: 14px;
+  height: 3px;
+  border-radius: 4px;
+  background-color: #06b6d4;
+  margin-right: 8px;
+}
+
+.road-line {
+  background-color: #64748b;
+}
+
+.legend-border {
+  width: 12px;
+  height: 12px;
+  border: 1.5px dashed #0f172a;
+  margin-right: 8px;
+}
+
+@media (max-width: 980px) {
+  .dashboard-container {
+    flex-direction: column;
+  }
+
+  .control-panel {
+    width: 100%;
+    max-width: 100%;
+    height: 46%;
+    border-left: none;
+    border-top: 1px solid var(--line);
+    box-shadow: 0 -8px 18px rgba(15, 35, 47, 0.07);
+  }
+
+  .map-panel {
+    height: 54%;
+  }
+}
