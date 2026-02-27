@@ -1,0 +1,38 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "gp_name": "Tambaram_to_South_150km_Corridor"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.60,
+              12.95
+            ],
+            [
+              80.35,
+              12.95
+            ],
+            [
+              80.35,
+              11.55
+            ],
+            [
+              79.60,
+              11.55
+            ],
+            [
+              79.60,
+              12.95
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
