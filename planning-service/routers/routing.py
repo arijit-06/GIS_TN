@@ -73,7 +73,8 @@ def compute_route(request: ComputeRouteRequest):
         logger.error(f"Infrastructure node not found: {request.infra_id}")
         return JSONResponse(status_code=404, content={"error": "Infrastructure node not found"})
         
-    infra_lon, infra_lat = infra["longitude"], infra["latitude"]
+    infra_lon = infra.get("longitude", infra.get("lng"))
+    infra_lat = infra.get("latitude", infra.get("lat"))
     cust_lon, cust_lat = request.customer_lng, request.customer_lat
     
     start_node = data_store.snap_to_graph(infra_lon, infra_lat)

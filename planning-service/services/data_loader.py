@@ -3,6 +3,18 @@ import os
 import geopandas as gpd
 from shapely.geometry import Point, LineString
 import networkx as nx
+from math import radians, sin, cos, sqrt, atan2
+
+def haversine(lon1, lat1, lon2, lat2):
+    # Calculate distance between two points in meters using Haversine formula
+    R = 6371000  # radius of Earth in meters
+    phi1 = radians(lat1)
+    phi2 = radians(lat2)
+    delta_phi = radians(lat2 - lat1)
+    delta_lambda = radians(lon2 - lon1)
+    a = sin(delta_phi / 2.0) ** 2 + cos(phi1) * cos(phi2) * sin(delta_lambda / 2.0) ** 2
+    c = 2 * atan2(sqrt(a), sqrt(1 - a))
+    return R * c
 
 class DataLoader:
     def __init__(self):
@@ -77,8 +89,8 @@ class DataLoader:
             for line in lines:
                 coords = list(line.coords)
                 for i in range(len(coords) - 1):
-                    u = coords[i]
-                    v = coords[i+1]
+                    u = (round(coords[i][0], 6), round(coords[i][1], 6))
+                    v = (round(coords[i+1][0], 6), round(coords[i+1][1], 6))
                     # Edge weight = segment length. We use geographic distance.
                     # For simplicity, calculating euclidean distance on lat/lon or simple length.
                     # For real apps we should project to metric system like EPSG:3857, calculate length, then revert.
@@ -88,24 +100,32 @@ class DataLoader:
                     weight = segment.length 
                     self.graph.add_edge(u, v, weight=weight)
                     
+        if len(self.graph.nodes) > 0:
+            components = list(nx.connected_components(self.graph))
+            print(f"Connected components before filtering: {len(components)}")
+            if components:
+                largest_cc = max(components, key=len)
+                self.graph = self.graph.subgraph(largest_cc).copy()
+                print(f"Using largest connected component. Nodes: {self.graph.number_of_nodes()}")
+                    
     def snap_to_graph(self, lon, lat):
         if not self.graph or len(self.graph.nodes) == 0:
-            return (lon, lat)
+            return None
             
-        point = Point(lon, lat)
-        
-        # Find nearest node
-        # A simple linear scan. For larger graphs, use a spatial index (e.g. STRtree)
         nearest_node = None
         min_dist = float('inf')
         
         for node in self.graph.nodes:
-            n_point = Point(node[0], node[1])
-            dist = point.distance(n_point)
+            n_lon, n_lat = node
+            dist = haversine(lon, lat, n_lon, n_lat)
             if dist < min_dist:
                 min_dist = dist
                 nearest_node = node
                 
+        if min_dist > 1000: # 1 km threshold
+            print(f"Point ({lon}, {lat}) too far from road network: {min_dist}m")
+            return None
+            
         return nearest_node
 
 data_store = DataLoader()

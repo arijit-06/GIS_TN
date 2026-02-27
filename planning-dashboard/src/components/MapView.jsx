@@ -33,6 +33,7 @@ const MapEvents = ({ setCustomerLocation }) => {
     return null;
 };
 
+
 // Component to fit map to boundary
 const FitBounds = ({ data }) => {
     const map = useMap();
@@ -65,7 +66,8 @@ const MapView = ({
     customerLocation,
     setCustomerLocation,
     routeInfo,
-    isLoading
+    isLoading,
+
 }) => {
 
     const boundaryStyle = {
@@ -76,6 +78,10 @@ const MapView = ({
         fillOpacity: 0.2,
         dashArray: '5, 5'
     };
+
+    useEffect(() => {
+        console.log("Infra nodes:", infraNodes);
+    }, [infraNodes]);
 
     return (
         <div className="map-wrapper">
@@ -92,8 +98,8 @@ const MapView = ({
                 zoomControl={false}
             >
                 <TileLayer
-                    attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-                    url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                    url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png"
+                    attribution="&copy; OpenStreetMap contributors &copy; CARTO"
                 />
 
                 {gpBoundary && (
@@ -103,21 +109,27 @@ const MapView = ({
                     </>
                 )}
 
-                {infraNodes.map((node, idx) => (
-                    <Marker
-                        key={node.id || idx}
-                        position={[node.latitude, node.longitude]}
-                        icon={redIcon}
-                        eventHandlers={{
-                            click: () => setSelectedInfra(node),
-                        }}
-                    >
-                        <Popup>
-                            <strong>Infrastructure Node</strong><br />
-                            ID: {node.id}
-                        </Popup>
-                    </Marker>
-                ))}
+                {Array.isArray(infraNodes) && infraNodes.map((node, idx) => {
+                    if (!node || typeof node.lat !== "number" || typeof node.lng !== "number") {
+                        return null;
+                    }
+
+                    return (
+                        <Marker
+                            key={node.id || idx}
+                            position={[node.lat, node.lng]}
+                            icon={redIcon}
+                            eventHandlers={{
+                                click: () => setSelectedInfra(node),
+                            }}
+                        >
+                            <Popup>
+                                <strong>Infrastructure Node</strong><br />
+                                ID: {node.id}
+                            </Popup>
+                        </Marker>
+                    );
+                })}
 
                 {customerLocation && (
                     <Marker
@@ -131,15 +143,18 @@ const MapView = ({
                     </Marker>
                 )}
 
-                {routeInfo && routeInfo.route && routeInfo.route.length > 0 && (
-                    <>
-                        <Polyline
-                            positions={routeInfo.route}
-                            pathOptions={{ color: '#0ea5e9', weight: 4, opacity: 0.8 }}
-                        />
-                        <FitRouteBounds routeInfo={routeInfo} />
-                    </>
-                )}
+                {routeInfo &&
+                    Array.isArray(routeInfo.route) &&
+                    routeInfo.route.length > 0 &&
+                    routeInfo.route.every(pt => Array.isArray(pt) && pt.length === 2) && (
+                        <>
+                            <Polyline
+                                positions={routeInfo.route}
+                                pathOptions={{ color: '#0ea5e9', weight: 4, opacity: 0.8 }}
+                            />
+                            <FitRouteBounds routeInfo={routeInfo} />
+                        </>
+                    )}
 
                 <MapEvents setCustomerLocation={setCustomerLocation} />
             </MapContainer>
